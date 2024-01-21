@@ -7,7 +7,8 @@ alias mconfig "vim ~/.config/hypr/monitors.conf"
 alias wrconfig "vim ~/.config/hypr/windowrules.conf"
 alias gts "git status"
 alias ga "git add -A"
-alias gp "git push"
+alias gps "git push"
+alias gpl "git pull"
 
 # git commit shortcut
 function gcm
