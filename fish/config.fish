@@ -9,6 +9,7 @@ alias gts "git status"
 alias ga "git add -A"
 alias gps "git push"
 alias gpl "git pull"
+alias inst "makepkg -si"
 
 # git commit shortcut
 function gcm
