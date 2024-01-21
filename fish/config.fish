@@ -10,6 +10,8 @@ alias ga "git add -A"
 alias gps "git push"
 alias gpl "git pull"
 alias inst "makepkg -si"
+alias upscale "hyprctl keyword monitor 'eDP-1,1920x1080@60,0x0,1.25'"
+alias downscale "hyprctl keyword monitor 'eDP-1,1920x1080@60,0x0,1'"
 
 # git commit shortcut
 function gcm
