@@ -5,3 +5,12 @@ alias vim nvim
 alias kbconfig "vim ~/.config/hypr/keybindings.conf"
 alias mconfig "vim ~/.config/hypr/monitors.conf"
 alias wrconfig "vim ~/.config/hypr/windowrules.conf"
+alias gts "git status"
+alias ga "git add -A"
+alias gp "git push"
+
+# git commit shortcut
+function gcm
+    set message $argv[1]
+    git commit -m "$message"
+end
