@@ -16,5 +16,5 @@ alias downscale "hyprctl keyword monitor 'eDP-1,1920x1080@60,0x0,1'"
 # git commit shortcut
 function gcm
     set message $argv[1]
-    git commit -m "$message"
+    git commit -am "$message"
 end
