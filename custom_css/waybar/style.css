@@ -5,15 +5,13 @@
     font-weight: bold;
     font-size: 12px;
     min-height: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 
 @import "themes/theme.css";
 
 window#waybar {
     /* background: @bar-bg; */
-  background: linear-gradient(0deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.6) 100%);
 }
 
 
