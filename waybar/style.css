@@ -52,8 +52,9 @@ tooltip {
 }
 
 #workspaces button:hover {
-    background: @wb-hvr-bg;
-    color: @wb-hvr-fg;
+    /* background: @wb-hvr-bg; */
+    /* color: @wb-hvr-fg; */
+    color: white;
     padding-left: 3px;
     padding-right: 3px;
     animation: gradient_f 20s ease-in infinite;
@@ -136,6 +137,11 @@ tooltip {
 
 #clock {
   padding: 10px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 13px;
+  padding-left: 10px;
+  background-color: #404040;
+  color: white;
 }
 
 #tray {
@@ -169,12 +175,14 @@ tooltip {
   background-color: #30aedb;
   padding: 5px;
   color: white;
+  margin-right: 0px;
 }
 
 #backlight {
   background-color: #53b5a6;
   border-radius: 5px;
   color: black;
+  margin-right: 0px;
 }
 
 #custom-updates {
@@ -194,14 +202,28 @@ tooltip {
   background-color:#cc76bf;
 }
 
-#workspaces {
-  background: #53b5a6;
-  border-radius: 25px;
-}
 
 #workspaces,
 #taskbar {
     padding: 0px;
+}
+
+#language {
+  background-color: white;
+}
+
+#window {
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 15px;
+  background-color: #404040;
+  color: white;
+}
+
+#workspaces {
+  background: #53b5a6;
+  border-radius: 25px 0px 0px 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #custom-wallchange,
@@ -216,8 +238,10 @@ tooltip {
 }
 
 #idle_inhibitor {
-  padding: 5px;
+  padding-left: 10px;
+  background-color: #404040;
   color: white;
+  border-radius: 5px 0 0 5px;
 }
 
 #tray, #battery {
@@ -228,16 +252,12 @@ tooltip {
 
 #tray {
   padding-left: 10px;
+  margin-left: 0px;
 }
 
 #battery {
   border-radius: 0 5px 5px 0;
   padding-right: 10px;
-}
-
-
-#clock {
-  color: white;
 }
 
 #custom-wallchange {
