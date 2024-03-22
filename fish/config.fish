@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 alias vim nvim
+alias vimconf "vim ~/.config/nvim"
 alias kbconfig "vim ~/.config/hypr/keybindings.conf"
 alias mconfig "vim ~/.config/hypr/monitors.conf"
 alias wrconfig "vim ~/.config/hypr/windowrules.conf"
@@ -11,7 +12,7 @@ alias ga "git add -A"
 alias gps "git push"
 alias gpl "git pull"
 alias inst "makepkg -si"
-alias upscale "hyprctl keyword monitor 'eDP-1,1920x1080@60,0x0,1.20'"
+alias upscale "hyprctl keyword monitor 'eDP-1,1920x1080@60,0x0,1.25'"
 alias downscale "hyprctl keyword monitor 'eDP-1,1920x1080@60,0x0,1'"
 alias config "cd ~/.config/"
 alias fishconf "vim ~/.config/fish/config.fish"
