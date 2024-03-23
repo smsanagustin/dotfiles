@@ -20,6 +20,7 @@ alias icat "kitten icat"
 alias mongostart "sudo systemctl start mongodb.service"
 alias mongostop "sudo systemctl stop mongodb.service"
 alias waybarcss "vim ~/.config/waybar/style.css"
+alias kittyconf "vim ~/.config/kitty/kitty.conf"
 
 # remap ctrl + p to arrow up 
 bind \cp up-or-search
