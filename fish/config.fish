@@ -31,3 +31,5 @@ function gcm
     set message $argv[1]
     git commit -am "$message"
 end
+
+zoxide init fish | source
