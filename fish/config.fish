@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 alias vim nvim
-alias vimconf "nvim ~/.config/nvim"
+alias vimconf "cd ~/.config/nvim && vim ."
 alias kbconfig "vim ~/.config/hypr/keybindings.conf"
 alias mconfig "vim ~/.config/hypr/monitors.conf"
 alias wrconfig "vim ~/.config/hypr/windowrules.conf"
@@ -32,10 +32,24 @@ alias lg lazygit
 bind \cp up-or-search
 bind \cn down-or-search
 
+# update dotfiles 
+function ud
+    cd ~/Desktop/dotfiles/
+    git add -A
+    git commit -m $argv[1]
+    git push
+end
+
 # git commit shortcut
 function gcm
     set message $argv[1]
     git commit -am "$message"
+end
+
+# create and go to a new directory 
+function mkcd
+    mkdir $argv[1]
+    cd $argv[1]
 end
 
 zoxide init fish | source
