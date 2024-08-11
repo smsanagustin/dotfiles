@@ -32,9 +32,8 @@ alias lg lazygit
 bind \cp up-or-search
 bind \cn down-or-search
 
-# update dotfiles 
-function ud
-    cd ~/Desktop/dotfiles/
+# push files to git
+function acp
     git add -A
     git commit -m $argv[1]
     git push
