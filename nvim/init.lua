@@ -3,3 +3,4 @@ require("config.lazy")
 
 -- keymap for reloading current file
 vim.api.nvim_set_keymap("n", "<leader>r", ":source %<CR>", { noremap = true, silent = true })
+vim.opt.guicursor = "n-v-i-c:block-Cursor"
