@@ -5,6 +5,8 @@
 
 - nvim - [LazyVim](https://github.com/LazyVim/LazyVim)
 
+- Firefox theme - https://github.com/datguypiko/Firefox-Mod-Blur
+
 # Screenshots
 | <b>kitty and fish</b>|
 |----|
