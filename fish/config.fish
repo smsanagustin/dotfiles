@@ -29,6 +29,11 @@ alias un "nvm install lts"
 alias uw "killall waybar || exec waybar"
 alias lg lazygit
 alias f "find -name" # find a file
+alias sdt "spicetify restore backup && spicetify backup apply enable-devtools" # enable spicetify dev tools
+alias esc "vim ~/.config/spicetify/Themes/marketplace/user.css"
+alias cst "spicetify config current_theme"
+alias csc "spicetify config color_scheme"
+alias sa "spicetify apply"
 
 # remap ctrl + p to arrow up 
 bind \cp up-or-search
@@ -54,4 +59,4 @@ function mkcd
 end
 
 zoxide init fish | source
-nvm use 22.5.1
+nvm use latest
