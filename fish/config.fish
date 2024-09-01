@@ -34,6 +34,14 @@ alias esc "vim ~/.config/spicetify/Themes/marketplace/user.css"
 alias cst "spicetify config current_theme"
 alias csc "spicetify config color_scheme"
 alias sa "spicetify apply"
+alias rh "hyprctl dispatch exit" # restart hyprland
+
+function ud
+    cd ~/dots
+    git add -A
+    git commit -m $argv[1]
+    git push
+end
 
 # remap ctrl + p to arrow up 
 bind \cp up-or-search
